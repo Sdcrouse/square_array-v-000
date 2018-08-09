@@ -2,6 +2,7 @@ def square_array(array)
   #squares = []
   #array.each {|number| squares.push(number ** 2)}
   #squares
+  
   array.collect {|number| number ** 2}
   
   # Note: if I want to do this with strings, here's how:
