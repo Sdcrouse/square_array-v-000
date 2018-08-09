@@ -7,4 +7,5 @@ def square_array(array)
   # squares = []
   # array.each{|item| squares.push(item * item)} # ** is not defined for strings!
   # squares
+  # If item == "word", then item * item returns "wordword".
 end
