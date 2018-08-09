@@ -11,8 +11,6 @@ def square_array(array)
   # Maybe #inject calls on #each as part of its implementation!
   
   # Note: if I want to do this with strings, here's how:
-  # squares = []
-  # array.each{|item| squares.push(item * 2)} # ** is not defined for strings!
-  # squares
+  # array.collect { |item| item * 2 }
   # If item == "word", then item * 2 returns "wordword".
 end
