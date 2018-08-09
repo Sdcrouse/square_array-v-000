@@ -4,7 +4,7 @@ def square_array(array)
   #squares
   
   #array.collect {|number| number ** 2}
-  
+  array.map {|number| number ** 2}
   
   
   # Note: if I want to do this with strings, here's how:
